@@ -55,7 +55,7 @@ class CaixaEletronico {
                     
 
                     if(cedula.contador > 0) {
-                        span.innerHTML = `Quantidade de cédulas disponíveis para saque: ${cedula.valorCedula}: ${cedula.contador}`                    
+                        span.innerHTML = `Quantidade de cédulas sacadas: ${cedula.valorCedula}: ${cedula.contador}`                    
                         span.style.display = 'block' 
                         span.style.marginBottom = '15px' 
                         span.style.fontSize = '20px'
