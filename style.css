@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#ui-container {
+    text-align: center;        
+}
+
+h1, h2 {
+    margin-top: 30px;
+}
+
+#inputSaque {
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    font-weight: bolder;
+}
+
+#btnSacar {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: #6F6FFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
