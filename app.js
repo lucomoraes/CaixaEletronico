@@ -25,7 +25,9 @@ class CaixaEletronico {
             {"valorCedula" : "R$100", "contador": 0},
             {"valorCedula" : "R$50", "contador": 0},
             {"valorCedula" : "R$20", "contador": 0},
-            {"valorCedula" : "R$10", "contador": 0}]
+            {"valorCedula" : "R$10", "contador": 0},
+            {"valorCedula" : "R$5", "contador": 0},
+            {"valorCedula" : "R$2", "contador": 0}]
 
             if(this.saldo - this._saque >= 0) {
                 if(this._saque != 0) {
@@ -48,6 +50,14 @@ class CaixaEletronico {
                     for(;this._saque >= 10;) {
                         contadorCedulas[4].contador += 1 
                         this._saque -= 10
+                    }
+                    for(;this._saque >= 5;) {
+                        contadorCedulas[5].contador += 1 
+                        this._saque -= 5
+                    }
+                    for(;this._saque >= 2;) {
+                        contadorCedulas[6].contador += 1 
+                        this._saque -= 2
                     }
                 }      
                 contadorCedulas.forEach(function(cedula){
